@@ -41,10 +41,56 @@
   padding-top: 10px;
 }
 
+
+/* awards section suru */
+.awards {
+  padding: 0px 50px;
+  color: var(--font-color);
+  margin: 50px 0px;
+}
+.A {
+  text-align: center;
+}
+.B {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+  /* -----------
+  
+  */
+
+
+.design{
+  background: #000;
+  padding: 40px;
+  margin-top: 20px;
+}
+.design p {
+  font-weight: 400;
+  font-size: 18px;
+  color: gray;
+}
+.bd{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.bd h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.bd p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
 @media only screen and (min-width: 200px) and (max-width: 576px) {
   .experience {
     flex-direction: column;
-    padding: 0px 5px;
+    padding: 15px 5px;
   }
   .yn div{
     padding: 20px 0px 0px 0px;
@@ -58,5 +104,31 @@
   .lc{
     font-size: 20px;
     padding: 10px 0px;
+  }
+
+  /* ---------- */
+  .awards {
+    padding: 0px;
+  }
+  .B {
+    padding: 10px 5px 0px;
+    max-width: 100%;
+    text-align: left;
+  }
+  /* ------ */
+
+  .bd {
+    flex-direction: column;
+    
+  }
+  .bd h1 {
+    font-size: 18px;
+  }
+  .bd h3 {
+    padding: 10px 0px;
+    font-size: 16px;
+  }
+  .design{
+    padding: 15px ;
   }
 }
