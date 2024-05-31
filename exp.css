@@ -43,7 +43,7 @@
 
 
 /* awards section suru */
-.awards {
+.awards, .my-portfolio {
   padding: 0px 50px;
   color: var(--font-color);
   margin: 50px 0px;
@@ -85,6 +85,61 @@
   font-size: 18px;
   font-weight: 700;
 }
+
+
+/* ------- */
+
+.mp {
+  font-size: 40px;
+  font-weight: 800;
+}
+.pp {
+  font-size: 18px;
+  font-weight: 400;
+  color: gray;
+}
+
+.design-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 35px;
+  margin-top: 40px;
+}
+.design-container div{
+  background-color: #000;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.wd{
+  background-color: var(--main-color);
+  font-size: 24px;
+  font-weight: 400;
+  padding: 20px;
+  text-align: center;
+}
+
+/* -------- */
+
+
+.website{
+  margin: 50px 0px;
+}
+.ux{
+  display: flex;
+  justify-content: space-between;
+}
+.italic{
+  padding:0px 0px 20px 0px;
+}
+.bw{
+  padding-bottom: 20px;
+}
+.pain{
+  padding: 20px 0px;
+}
+
 
 
 @media only screen and (min-width: 200px) and (max-width: 576px) {
@@ -130,5 +185,34 @@
   }
   .design{
     padding: 15px ;
+  }
+
+  .my-portfolio{
+    padding: 0px 5px;
+  }
+  .mp{
+    font-size: 30px;
+  }
+
+  .design-container{
+    grid-template-columns: auto auto;
+    gap: 15px;
+    padding: 0px 5px;
+  }
+  .design-container div {
+    font-size: 16px;
+  }
+  .wd{
+    font-size:16px ;
+  }
+
+  .ux{
+    flex-direction: column-reverse;
+  }
+  .ux div img {
+    max-width: 100%;
+  }
+  .pain{
+    padding: 10px 0px;
   }
 }
