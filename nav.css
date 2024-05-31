@@ -2,10 +2,9 @@
   display: flex;
   color: var(--font-color);
   justify-content: space-between;
-  padding: 20px 0px;
   font-weight: 400;
   font-size: 21px;
-  
+  padding: 20px 50px;
 }
 .nav-section {
   display: flex;
@@ -28,23 +27,24 @@
 @media only screen and (min-width: 200px) and (max-width: 576px) {
   .nav-container {
     flex-direction: column;
+    padding: 0px;
+    margin: 0px;
   }
-  .nav-section{
+  .nav-section {
     font-size: 21px;
     flex-direction: column;
     gap: 15px;
   }
   .btn button {
-  /* padding: 15px 25px; */
-  background-color: var(--main-color);
-  color: var(--font-color);
-  border: none;
-  font-size: 21px;
-  font-weight: 400;
-}
-.logo {
-  display: flex;
-  justify-content: center;
-  padding: 20px 0px;
-}
+    background-color: var(--main-color);
+    color: var(--font-color);
+    border: none;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+  }
 }

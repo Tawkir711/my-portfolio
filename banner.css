@@ -5,12 +5,14 @@
   color: var(--font-color);
   padding-top: 40px;
   display: flex;
+  padding: 40px 50px;
 }
 .banner-left-part {
   width: 50%;
 }
 .banner-profile {
-  height: 500px;
+  width: 100%;
+  height: auto;
   background-color: black;
   background-position: bottom;
   border: 1px solid rgb(185, 117, 117);
@@ -75,4 +77,57 @@
 .social-icon span {
   font-size: 32px;
   color: gray;
+}
+.optional-task {
+  color: var(--font-color);
+  background-color: black;
+  padding: 30px 0px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 22px;
+  width: fit-content;
+  font-size: 23px;
+  font-weight: 400;
+  rotate: -5deg;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .banner-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 5px;
+    margin: 0px;
+  }
+  .banner-left-part, .banner-profile {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-profile img {
+    max-width: 80%;
+  }
+  .banner-title {
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 15px 0px;
+    width: 100%;
+  }
+  .banner-desc p {
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+  }
+  .banner-design {
+    flex-direction: column;
+    align-items: center;
+  }
+  .optional-task {
+    display: none;
+  }
+  .hp {
+    flex-direction: column;
+  }
+  br {
+    display: none;
+  }
 }
