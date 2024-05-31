@@ -1,0 +1,62 @@
+.experience {
+  padding: 30px 50px;
+  background: linear-gradient(
+    270.16deg,
+    rgba(255, 177, 71, 0.1) 5.74%,
+    rgba(255, 108, 99, 0.1) 50.64%,
+    rgba(184, 106, 223, 0.1) 92.05%
+  );
+  color: var(--font-color);
+  display: flex;
+  justify-content: space-between;
+}
+.h1, .h5{
+  padding-bottom: 20px;
+}
+.h1{
+  font-weight: 700;
+}
+.p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.h5{
+  font-size: 18px;
+}
+.year {
+  display: flex;
+  justify-content: space-between;
+} 
+.year h3{
+  font-size: 18px;
+}
+.year p{
+  font-size: 16px;
+}
+.lc {
+  font-size: 32px;
+}
+.yn div {
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .experience {
+    flex-direction: column;
+    padding: 0px 5px;
+  }
+  .yn div{
+    padding: 20px 0px 0px 0px;
+  }
+  .year h3{
+    font-size: 16px;
+  }
+  .year p{
+    font-size: 14px;
+  }
+  .lc{
+    font-size: 20px;
+    padding: 10px 0px;
+  }
+}
