@@ -1,0 +1,78 @@
+/* .header-container {
+  height: 100vh;
+} */
+.banner-container {
+  color: var(--font-color);
+  padding-top: 40px;
+  display: flex;
+}
+.banner-left-part {
+  width: 50%;
+}
+.banner-profile {
+  height: 500px;
+  background-color: black;
+  background-position: bottom;
+  border: 1px solid rgb(185, 117, 117);
+  border-radius: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.banner-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 800;
+}
+.banner-title span {
+  color: var(--main-color);
+}
+.banner-desc {
+  padding: 10px 0px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.banner-design {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 10px 0px;
+}
+.banner-portfolio {
+  padding: 10px 0px;
+}
+.hp {
+  display: flex;
+  gap: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  background-color: #333;
+  width: fit-content;
+  padding: 15px 25px;
+  border-radius: 50px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+}
+.prt {
+  display: flex;
+  gap: 3px;
+  background-color: var(--main-color);
+  padding: 15px 25px;
+  border-radius: 50px;
+}
+.check-icon {
+  width: 25px;
+}
+.social-icon {
+  display: flex;
+  gap: 30px;
+  padding: 10px 0px;
+}
+.social-icon span {
+  font-size: 32px;
+  color: gray;
+}
