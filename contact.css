@@ -20,26 +20,26 @@
   background: #fd6f001a;
   padding: 50px 70px;
 }
-.ne{
+.ne {
   display: flex;
   justify-content: space-between;
   padding: 10px 0px;
 }
-.n{
+.n {
   border-bottom: 1px solid;
   width: 45%;
   padding: 15px 0px;
 }
-.M{
+.M {
   padding: 30px 0px;
-  border-bottom: 1px solid ;
+  border-bottom: 1px solid;
 }
-.F{
+.F {
   display: flex;
   gap: 8px;
   padding: 25px 0px;
 }
-.sn{
+.sn {
   background-color: var(--main-color);
   font-size: 24px;
   font-weight: 400;
@@ -48,22 +48,71 @@
   border: none;
   color: var(--font-color);
 }
-.ap{
+.ap {
   font-size: 40px;
   font-weight: 700;
 }
 
+/* -------footer */
+
+.footer {
+  background-color: #000;
+  color: var(--font-color);
+  padding: 60px 70px 30px;
+}
+.f-img {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.f-section {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+.f-social-icon {
+  display: flex;
+  gap: 30px;
+  padding: 10px 0px;
+  justify-content: center;
+}
+.f-social-icon span {
+  font-size: 32px;
+  color: gray;
+}
+.t{
+  color: var(--main-color);
+}
+.tt{
+  text-align: center;
+}
+
 @media only screen and (min-width: 200px) and (max-width: 576px) {
-  .contact{
+  .contact {
     padding: 0px 5px;
   }
-  .Bc{
+  .Bc {
     font-size: 25px;
   }
-  .ap{
+  .ap {
     font-size: 20px;
   }
-  .any{
+  .any {
     padding: 25px;
+  }
+  .sn{
+    padding: 15px;
+    font-size: 18px;
+  }
+  .f-section{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0px;
+  }
+  .tt{
+    font-size: 10px;
+    padding-top: 15px;
   }
 }
